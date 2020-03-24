@@ -1,0 +1,35 @@
+@import '../../../assets/abstract/mixins.scss';
+
+.navbar-color {
+    &__home {
+        background-color: #F7F8FA;
+    }
+}
+
+.navbar-text-options {
+    &__home {
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+}
+
+.login {
+    &__text {
+        text-transform: uppercase;
+        color: #000 !important;
+    }
+}
+
+.movil {
+    display: none !important;
+}
+
+@include media-breakpoint-down(xs){
+    .desktop {
+        display: none;
+    }
+
+    .movil {
+        display: block !important;
+    }
+}

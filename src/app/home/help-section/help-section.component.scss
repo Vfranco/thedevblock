@@ -1,0 +1,27 @@
+.help {
+  &__title {
+    color: #fff;
+  }
+
+  &__img {
+    background: url("../../../assets/img/bg-help.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #6d7278;
+  }
+
+  &__content {
+    max-height: 470px;
+    min-height: 470px;
+    width: 100%;
+    padding-top: 60px;
+  }
+
+  &__paragraph {
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 20px;    
+    text-align: center;
+    color: #fff;
+  }
+}

@@ -1,0 +1,57 @@
+@import "../../../assets/abstract/mixins.scss";
+
+.section {
+  &__main {
+    background: url("../../../assets/img/bg-home.png");
+    background-repeat: no-repeat;
+    height: 1100px;
+    margin-top: 76px;
+  }
+
+  &__title {
+    font-size: 3.2rem;
+    line-height: 4rem;
+    color: #282828;
+    padding-top: 10px;
+  }
+
+  &__subtitle {
+    font-size: 1.4rem;
+    line-height: 20px;
+    text-align: left;
+    color: #282828;
+    font-weight: bold !important;
+    text-transform: uppercase;
+  }
+
+  &__paragrahp {
+    font-size: 25px;
+    line-height: 32px;
+    text-align: left;
+    color: #282828;
+  }
+
+  @include media-breakpoint-down(xs) {
+    &__title {
+      font-size: 2.3rem;
+      line-height: 2.6rem;
+      text-align: center;
+    }
+
+    &__paragrahp {
+      font-size: 1.2rem;
+      text-align: center;
+      line-height: 1.6rem;
+    }
+
+    &__subtitle {
+      font-size: 0.9rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    &__center {
+      text-align: center;
+    }
+  }
+}

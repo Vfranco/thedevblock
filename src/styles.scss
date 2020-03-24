@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "./assets/abstract/buttons.scss";
+
+.btn {
+  &__outline {
+    width: 170px;
+    height: 46px;
+    border-radius: 5px;
+    border: 1px solid $btn-outline;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: $btn-outline;
+  }
+
+  &__outline:hover {
+    border: 3px solid $btn-outline;
+  }
+
+  &__solid {    
+    border-radius: 50px !important;    
+    font-weight: bold !important;
+    color: #fff !important;
+    background-color: #f19401 !important;
+    text-transform: uppercase;
+    line-height: 31px !important;
+    padding-right: 34px !important;
+    padding-left: 34px !important;
+  }
+
+  &__solid-secondary {
+    font-weight: bold !important;
+    color: #6D7278 !important;
+    background-color: $btn-solid !important;
+    text-transform: uppercase;
+    line-height: 31px !important;
+    padding-right: 34px !important;
+    padding-left: 34px !important;
+  }
+
+  &__text {
+    font-size: 15px !important;
+  }
+}
