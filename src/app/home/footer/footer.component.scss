@@ -1,0 +1,31 @@
+.footer {
+    &__shape {
+        height: 50px;
+        background-color: #F6F8F9 ;
+    }
+
+    &__termconditions {
+        font-size: 14px;
+        line-height: 56px;         
+        text-align: left;
+        color: #6D7278;
+        font-weight: bold;
+    }
+
+    &__copyrights {
+        font-size: 12px;
+        line-height: 25px;
+        color: #7E8085;
+    }
+
+    &__navbar {
+        list-style-type: none;
+        padding: 2px;
+    }
+
+    &__nav-link {
+        padding: 0.4rem 0.5rem !important;
+        line-height: 15px !important;
+    }
+}
+
